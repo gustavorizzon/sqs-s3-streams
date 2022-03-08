@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2022-02-18T14:18:29.564Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDAYH25BJXWUEDYCP2BL"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "179.189.74.123"
+      },
+      "responseElements": {
+        "x-amz-request-id": "C0PXSQB7X9VYJ9B4",
+        "x-amz-id-2": "AP6EJmcGQlC3F8Mg8t3K72iF7vvhjQFympekA9V4HDT8qNhQxvtvt8ReF0W0R0WUYSzWpqiwC+PpQgOT7EYxYmwt22B1IsexNrZCXwXLISY="
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "256fdbe7-c50c-486a-abf4-690342f5f7b5",
+        "bucket": {
+          "name": "arquivos-009-gprizzon",
+          "ownerIdentity": {
+            "principalId": "AY72OQB72E8SG"
+          },
+          "arn": "arn:aws:s3:::arquivos-009-gprizzon"
+        },
+        "object": {
+          "key": "test.csv",
+          "size": 9,
+          "eTag": "8e3109625ec10d034f51ec7e00f8e877",
+          "sequencer": "00620FAAB560F534CC"
+        }
+      }
+    }
+  ]
+}
